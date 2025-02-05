@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_to_the_cheezery">Welcome to The Cheezery!</string>
+    <string name="home_of_the_most_wonderful_desserts_ever_seen_and_tasted_by_the_human_being">Home of the most wonderful desserts ever seen (and tasted) by the human being.</string>
+    <string name="get_started">Get Started</string>
+    <string name="txt_welcome_title">Welcome to The Cheezery!\t\t\t\t\t\t\t</string>
+    <string name="txt_img_description">The Cheezery</string>
+</resources>
