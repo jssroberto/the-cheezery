@@ -5,13 +5,12 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ProductosActivity">
+        tools:context=".ProductsActivity">
 
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/cold_drinks"
-            />
+            android:src="@drawable/cold_drinks" />
 
     <ListView
             android:id="@+id/listview"

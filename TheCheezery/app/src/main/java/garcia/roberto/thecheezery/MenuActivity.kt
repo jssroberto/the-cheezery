@@ -20,9 +20,34 @@ class MenuActivity : AppCompatActivity() {
         }
 
         var btnColdDrinks = findViewById(R.id.btn_cold_drinks) as Button
+        var btnHotDrinks = findViewById(R.id.btn_hot_drinks) as Button
+        var btnSweets = findViewById(R.id.btn_sweets) as Button
+        var btnSalties = findViewById(R.id.btn_salties) as Button
+
         btnColdDrinks.setOnClickListener {
-            val intent = Intent(this, ProductosActivity::class.java)
+            val intent = Intent(this, ProductsActivity::class.java)
+            intent.putExtra("category", "coldDrinks")
             startActivity(intent)
         }
+
+        btnHotDrinks.setOnClickListener {
+            val intent = Intent(this, ProductsActivity::class.java)
+            intent.putExtra("category", "hotDrinks")
+            startActivity(intent)
+        }
+
+        btnSweets.setOnClickListener {
+            val intent = Intent(this, ProductsActivity::class.java)
+            intent.putExtra("category", "sweets")
+            startActivity(intent)
+        }
+
+        btnSalties.setOnClickListener {
+            val intent = Intent(this, ProductsActivity::class.java)
+            intent.putExtra("category", "salties")
+            startActivity(intent)
+        }
+
+
     }
 }
